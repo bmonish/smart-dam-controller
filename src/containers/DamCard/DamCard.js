@@ -46,7 +46,7 @@ function DamCard() {
         <div className="text__levels">
           <span>Water Level: 5498</span>
           <span>Max. Water Level: 6000</span>
-          <span>Dam Location: {damDetails.Dam1.location}</span>
+          <span>Dam Location: {damDetails.Dam1?.location}</span>
         </div>
       </div>
     </div>
