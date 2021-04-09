@@ -1,0 +1,40 @@
+.damCard {
+    margin: 40px auto;
+    background: linear-gradient(45deg,  #9198e5, #e66465);
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+
+.levels {
+    display: flex;
+}
+.level__container {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gateControls {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.getStatus {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.text__levels {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.level {
+    padding: 15px 0 5px 0;
+}
