@@ -1,3 +1,10 @@
 .app__title {
   padding: 15px;
 }
+
+.prediction {
+  width: 70%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
