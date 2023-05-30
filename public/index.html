@@ -5,10 +5,12 @@
   <script type="application/javascript">
     function getIP(json) {
       console.log("GET IP Triggered", json);
+      window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({ "event": "ipEvent", "ipAddress": json.ip });
       // sessionStorage.setItem("my_ip", json.ip);
     }
   </script>
+  <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
 
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
@@ -22,8 +24,6 @@
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-NDPRJ64');</script>
   <!-- End Google Tag Manager -->
-
-  <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
 
   <meta charset="utf-8" />
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
