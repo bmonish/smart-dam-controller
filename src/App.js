@@ -23,6 +23,7 @@ function App() {
         if (isTrue) {
           count += 1;
         }
+        return null;
       })
       count > 3 ? setOpenGate("Recommended to Open the Gate") : setOpenGate("No Available Prediction")
     });
