@@ -23,6 +23,7 @@
         + dif + pad(tzo / 60)
         + ':' + pad(tzo % 60);
       console.log('Current time : ', res);
+      console.log("Current time in epoch : ", Date.now())
       return res;
     }
     getTime();
